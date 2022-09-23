@@ -99,6 +99,11 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+#header .contact-links {
+  margin-top: 40px;
+  display: flex;
+}
+
 #header .social-links a {
   font-size: 16px;
   display: flex;
@@ -775,6 +780,7 @@ section .container {
   overflow: hidden;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+  height: 170px;
 }
 
 .portfolio .portfolio-wrap::before {
